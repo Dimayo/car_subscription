@@ -10,6 +10,7 @@
 The purpose of the project is to test the hypotheses formulated by the product team, as well as answer a number of questions about customer actions on the site, which will help to further improve the customer experience.
 
 ### Methods Used
+* Data preparation
 * Exploratory analysis
 * Data Visualization
 * Hypothesis testing
