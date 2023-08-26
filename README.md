@@ -18,9 +18,9 @@ The purpose of the project is to test the hypotheses formulated by the product t
 ## Project Description
 Data from google analytics was used. The GA Sessions file contains information about visits to the site, such as visitor ID, visit date, visit time, acquisition channel, etc. The GA Hits file contains information about visitor actions, for example: event date, event time, event type and etc.<br><br>
 ### The following hypotheses need to be tested:
-* Organic traffic is no different from paid traffic in terms of CR(Conversion Rate) into target events.
+* Organic traffic is no different from paid traffic in terms of CR (Conversion Rate) into target events.
 * Traffic from mobile devices is no different from traffic from desktop devices in terms of CR (Conversion Rate)to target events.
-* Traffic from the cities of presence (Moscow and the region, St. Petersburg) does not differ from traffic from other regions in terms of CR(Conversion Rate) into target events.
+* Traffic from the cities of presence (Moscow and the region, St. Petersburg) does not differ from traffic from other regions in terms of CR (Conversion Rate) into target events.
 ### Product team questions:
 * From what sources / campaigns / devices / locations does it come to us the most targeted traffic (both in terms of traffic volume and CR)?
 * What cars are in the greatest demand? Which cars have the best CR (Conversion Rate) in target events?
