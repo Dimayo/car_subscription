@@ -12,7 +12,7 @@ The purpose of the project is to test the hypotheses formulated by the product t
 ### Methods Used
 * Data preparation
 * Exploratory analysis
-* Data Visualization
+* Data visualization
 * Hypothesis testing
 
 ## Project Description
