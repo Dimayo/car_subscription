@@ -20,9 +20,10 @@ https://github.com/Dimayo/car_subscription_project/blob/main/subscription_data.i
 Использовались данные Google Analytics. Файл GA Sessions содержит информацию о посещениях сайта, такую как идентификатор посетителя, дату посещения, время посещения, канал привлечения и т. д. Файл GA Hits содержит информацию о действиях посетителя, например: дату события, время события, тип события и и т. д.<br>
 Была произведена загрузка файлов, удаление дубликатов и заполнение пропусков в них. В датафрейме GA Hits был создан новый признак с названиями моделей автомобилей:
 ```
-df_hits_new['model'] = df_hits_new.hit_page_path.apply(lambda x: x.split('/')[3] + ' ' + x.split('/')[4]
-                                                       if len(x.split('/')) > 4 and x.split('/')[1] == 'cars'  
-                                                       else 'other')
+df_hits_new['model'] = df_hits_new.hit_page_path
+                       .apply(lambda x: x.split('/')[3] + ' ' + x.split('/')[4]
+                       if len(x.split('/')) > 4 and x.split('/')[1] == 'cars'  
+                       else 'other')
 ```
 Также был создан признак который содержит целевые действия:
 ```
@@ -39,8 +40,9 @@ df_mod = df_hits_new.groupby(['session_id']).agg({'model': ','.join, 'target_act
 ```
 В GA Sessions были удалены лишние столбцы:
 ```
-df_sessions_new = df_sessions.drop(['visit_number','utm_keyword','utm_adcontent','device_screen_resolution',
-                                    'device_browser','device_model','device_os'], axis=1)
+df_sessions_new = df_sessions.drop(['visit_number','utm_keyword','utm_adcontent',
+                                    'device_screen_resolution','device_browser',
+                                    'device_model','device_os'], axis=1)
 ```
 Далее таблицы были объединены по столбцу session_id:
 ``` 
