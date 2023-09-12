@@ -25,5 +25,6 @@ Data from google analytics was used. The GA Sessions file contains information a
 * From what sources / campaigns / devices / locations does it come to us the most targeted traffic (both in terms of traffic volume and CR)?
 * What cars are in the greatest demand? Which cars have the best CR (Conversion Rate) in target events?
 * Should we increase our presence in social networks and give there more ads?
-
+<img src="![image](https://github.com/Dimayo/car_subscription_project/assets/44707838/c46582fc-f250-4692-a805-6af74903e63b)
+" width="200" height="200">
 
