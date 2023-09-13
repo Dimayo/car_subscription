@@ -47,6 +47,12 @@ df_sessions_new = df_sessions.drop(['visit_number','utm_keyword','utm_adcontent'
 ``` 
 df = df_sessions_new.merge(df_mod, on='session_id', how='inner')
 ```
+Для проверки гипотез о конверсии использовался биномиальный критерий
+```
+T = (m1/n1 - m2/n2)/((m1+m2)/(n1+n2)*(1 - (m1+m2)/(n1+n2))*(1/n1 + 1/n2))**0.5
+P = min(2*stats.norm.cdf(T), 2 - 2*stats.norm.cdf(T))
+print("Statisctic: ",T,", p-value: ",P)
+```
 ## Результат
 ### После проверки гипотез были получены следующие результаты:
 Органический трафик статистически значимо отличается от платного с точки зрения CR 
