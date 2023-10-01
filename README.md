@@ -39,6 +39,11 @@ else 0)
 ```
 df_mod = df_hits_new.groupby(['session_id']).agg({'model': ','.join, 'target_action': 'sum'})
 ```
+Признак с целевыми действиями преобразован в бинарный:
+```
+df_mod['target_action'] = df_mod.target_action.apply(lambda x: 1 if x > 0 else 0)
+```
+
 В GA Sessions были удалены лишние столбцы:
 ```
 df_sessions_new = df_sessions.drop(['visit_number','utm_keyword','utm_adcontent',
@@ -59,48 +64,47 @@ print("Statisctic: ",T,", p-value: ",P)
 ### Проверка гипотез
 Органический трафик статистически значимо отличается от платного с точки зрения CR 
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5a3a243e-9b90-460a-b6a6-9f1c6dc1c6c8" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/04abb284-2bf2-4ce2-bca0-57ce33aaa4d3" width="600"> <br> <br>
 
 Трафик с мобильных устройств значимо отличается от трафика с десктопных устройств с точки зрения CR 
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/7706db67-b20d-43f7-ba17-ab88280377e5" width="600"> <br> <br>
-
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/53dd67f5-eae9-4835-a5f9-70c1687fa4cd" width="600"> <br> <br>
 
 Трафик из городов присутствия (Москва и область, Санкт-Петербург) значимо отличается от трафика из иных регионов с точки зрения CR
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/c070b248-3fe3-499c-a818-6b5baed333c2" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/b60477db-699b-413b-a8ff-7771434c44da" width="600"> <br> <br>
 
 ### Ответы на вопросы продуктовой команды
 **<p>Из каких источников к нам идет самый целевой трафик с точки зрения объема трафика и с точки зрения конверсии?</p>**
 Целевой трафик по устройствам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/66193040-c727-4c52-84c1-9de8626403ca" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5592718c-e801-417d-8960-421980735d74" width="600"> <br> <br>
 
 C точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/b237ac90-c332-41e9-952c-b4989476580e" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/c50a3210-a60c-498c-9f8a-e386b70c9d32" width="600"> <br> <br>
 
 Целевой трафик по городам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/9ba4d687-7c60-4d98-ab52-d80f78a0abe1" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/ad060a19-91b9-4143-89d6-f79bd41a1476" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5b6e9be6-496d-49e5-99b7-175781253c97" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/8c3ebdb3-8dbe-48c6-a4e2-3bbac404e236" width="600"> <br> <br>
 
 **<p>Какие авто пользуются наибольшим спросом? У каких авто самый лучший показатель конверсии?</p>**
 Целевой трафик по модели авто с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/0738175d-4cba-449b-99ce-0fdc220d2c52" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/1a3d4dda-5aea-4fd0-a554-21d3725b645e" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/474ec6d9-92da-4721-bf25-3823fcecbdff" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/0f93d6c2-d59a-48bb-b151-e92726c4b227" width="600"> <br> <br>
 
 **<p>Стоит ли нам увеличивать свое присутствие в соцсетях и давать там больше рекламы?</p>**
 Не стоит т.к. показатель конверсии 1.6% ниже среднего (2.9%)
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/e6830fbf-51ec-4140-a607-f666b673ee34" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/1ea59e6a-d78a-4a07-b50c-ce8ffa1eab69" width="600"> <br> <br>
 
 
 
