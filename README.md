@@ -59,43 +59,49 @@ print("Statisctic: ",T,", p-value: ",P)
 ### Проверка гипотез
 Органический трафик статистически значимо отличается от платного с точки зрения CR 
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/de702988-1a3d-40ce-bb35-f5965bf8e6a1" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5a3a243e-9b90-460a-b6a6-9f1c6dc1c6c8" width="600"> <br> <br>
 
 Трафик с мобильных устройств значимо отличается от трафика с десктопных устройств с точки зрения CR 
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/9d3eb9b2-6137-46bc-9d51-a3e36415f55b" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/7706db67-b20d-43f7-ba17-ab88280377e5" width="600"> <br> <br>
+
 
 Трафик из городов присутствия (Москва и область, Санкт-Петербург) значимо отличается от трафика из иных регионов с точки зрения CR
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/defb431e-4024-4cff-9426-9007331598d4" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/c070b248-3fe3-499c-a818-6b5baed333c2" width="600"> <br> <br>
+
 ### Ответы на вопросы продуктовой команды
 **<p>Из каких источников к нам идет самый целевой трафик с точки зрения объема трафика и с точки зрения конверсии?</p>**
 Целевой трафик по устройствам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/7a0c6257-246c-4357-9646-1dc44215fc01" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/66193040-c727-4c52-84c1-9de8626403ca" width="600"> <br> <br>
 
 C точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/775aca85-9bd9-4601-ad74-304aeb461ac0" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/b237ac90-c332-41e9-952c-b4989476580e" width="600"> <br> <br>
 
 Целевой трафик по городам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/915846e1-19c5-4cc8-be27-6608e7e67e64" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/9ba4d687-7c60-4d98-ab52-d80f78a0abe1" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/550a8c05-18b4-40a0-a9ae-87cf862735cf" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5b6e9be6-496d-49e5-99b7-175781253c97" width="600"> <br> <br>
 
 **<p>Какие авто пользуются наибольшим спросом? У каких авто самый лучший показатель конверсии?</p>**
 Целевой трафик по модели авто с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/be94768b-ace8-4f7a-b44e-d3a207a266f5" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/0738175d-4cba-449b-99ce-0fdc220d2c52" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription_project/assets/44707838/ebf66544-c6f9-422a-b73d-890255bdb154" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/474ec6d9-92da-4721-bf25-3823fcecbdff" width="600"> <br> <br>
+
 **<p>Стоит ли нам увеличивать свое присутствие в соцсетях и давать там больше рекламы?</p>**
 Не стоит т.к. показатель конверсии 1.6% ниже среднего (2.9%)
+
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/e6830fbf-51ec-4140-a607-f666b673ee34" width="600"> <br> <br>
+
 
 
 
