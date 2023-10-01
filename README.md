@@ -1,5 +1,5 @@
 # Анализ данных для сервиса подписки на автомобили
-https://github.com/Dimayo/car_subscription_project/blob/main/subscription_data.ipynb <br>
+https://github.com/Dimayo/car_subscription/blob/main/subscription_data.ipynb <br>
 Библиотеки python: pandas, matplotlib, pickle, scipy
 
 ## Цель проекта
