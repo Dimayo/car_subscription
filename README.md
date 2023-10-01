@@ -1,6 +1,6 @@
 # Анализ данных для сервиса подписки на автомобили
 https://github.com/Dimayo/car_subscription/blob/main/subscription_data.ipynb <br>
-Библиотеки python: pandas, matplotlib, pickle, scipy
+Библиотеки python: pandas, matplotlib, pickle, scipy, seaborn, numpy
 
 ## Цель проекта
 Необходимо было проверить гипотезы, сформулированные продуктовой командой, а также ответить на ряд вопросов о действиях клиентов на сайте, что поможет в дальнейшем улучшить качество обслуживания.
