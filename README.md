@@ -78,28 +78,28 @@ print("Statisctic: ",T,", p-value: ",P)
 **<p>Из каких источников к нам идет самый целевой трафик с точки зрения объема трафика и с точки зрения конверсии?</p>**
 Целевой трафик по устройствам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/5592718c-e801-417d-8960-421980735d74" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/493e9dc4-7f5e-4a81-8879-a3d96cf408ab" width="600"> <br> <br>
 
 C точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/c50a3210-a60c-498c-9f8a-e386b70c9d32" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/2fa5a3f1-94ea-4e06-a799-bfa26d9bce30" width="600"> <br> <br>
 
 Целевой трафик по городам с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/ad060a19-91b9-4143-89d6-f79bd41a1476" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/ed7dd9d2-5ee9-4917-8e28-0d8816449368" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/8c3ebdb3-8dbe-48c6-a4e2-3bbac404e236" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/4ef5140c-eb35-460a-b8cb-7a3f007da268" width="600"> <br> <br>
 
 **<p>Какие авто пользуются наибольшим спросом? У каких авто самый лучший показатель конверсии?</p>**
 Целевой трафик по модели авто с точки зрения объема:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/1a3d4dda-5aea-4fd0-a554-21d3725b645e" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/1c628ce4-4c77-4f90-b547-cf56a750ba55" width="600"> <br> <br>
 
 С точки зрения конверсии:
 
-<img src="https://github.com/Dimayo/car_subscription/assets/44707838/0f93d6c2-d59a-48bb-b151-e92726c4b227" width="600"> <br> <br>
+<img src="https://github.com/Dimayo/car_subscription/assets/44707838/16c76152-9c3c-423f-b252-c18353b4ae66" width="600"> <br> <br>
 
 **<p>Стоит ли нам увеличивать свое присутствие в соцсетях и давать там больше рекламы?</p>**
 Не стоит т.к. показатель конверсии 1.6% ниже среднего (2.9%)
